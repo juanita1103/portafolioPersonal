@@ -118,10 +118,6 @@
     right: 0px;
     z-index: 9999;
 }
-/* *********************/
-/* seccion S O B R E  M I */
-/* *********************/
-
 .sobreMi {
     max-width: 1100px;
     margin: auto;
@@ -316,10 +312,6 @@
     background-color:#9c9bdd;
     color: #fff;
 }
-/* *********************/
-/* seccion F O O T E R */
-/* *********************/
-
 footer {
     background-color: #4a5c9c;
     color: #fff;
@@ -336,11 +328,6 @@ footer a {
 footer a:hover{
     color: #63127a;
 }
-
-/* *********************/
-/* seccion R E S P O N S I V E */
-/* *********************/
-
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -372,7 +359,6 @@ footer a:hover{
     .inicio .contenido .presentacion .descripcion{
         padding-left: 20px;
     }
-    /* seccion SOBRE MI */
     .sobreMi {
         padding: 20px 0;
         display: block;
@@ -395,15 +381,12 @@ footer a:hover{
     .sobreMi .sobremi h2 {
         font-size: 25px;
     }
-    /* seccion HABLIDADES MI */
     .contenedor-skills {
         padding: 50px 20px;
     }
-    /* seccion PORTFOLIO */
     .portfolio {
         padding: 50px 0;
     }
-    /* seccion CONTACTO */
     .contacto {
         padding: 50px 15px;
     }
