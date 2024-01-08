@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Juanita Rodriguez</title>
+</head>
+
+<body>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1> JRD </h1>
+                    <nav class="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">Home</a></li>
+                            <li><a href="#sobremi">About me</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contacto">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <h2>WELCOME</h2>
+                <p class="descripcion">
+                    I am Juanita, a Full Stack developer committed to excellence in every line of code. An enthusiast of
+                    Full Stack development, I have invested time in learning a variety of technologies, from HTML, CSS,
+                    JavaScript, Java, to databases, thus enhancing my ability to create comprehensive web solutions.
+                </p>
+                <a href="#portfolio"> See Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobreMi">
+        <div class="contenedor-foto">
+            <img src="/img/Imagen2.jpeg" alt="Imagen sobre mi">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">ABOUT ME </p>
+            <h2>Hello,</h2>
+            <h3>I am Juanita, Full Stack developer</h3>
+            <p>
+                I love problem-solving and transforming ideas into innovative, functional solutions. I am motivated by
+                continuous learning and tackling complex challenges to develop high-quality web products that meet user
+                needs. I'm always exploring new technologies and enriching my knowledge to create engaging and effective
+                web experiences.</p>
+        </div>
+    </section>
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+            </div>
+            <div class="barra" progreso1></div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+            </div>
+            <div class="barra" progreso2></div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Database</p>
+            </div>
+            <div class="barra" progreso3></div>
+        </div>
+    </div>
+    </div>
+    <section id="portfolio" class="portfolio">
+        <h3 class="titulo-seccion">MY PROJECTS</h3>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h3 class="titulo-seccion">CONTACT</h3>
+        <div class="contenedor-form">
+            <form action="#" autocomplete="off">
+                <div class="fila mitad">
+                    <input type="text" name="Nombre" placeholder="Name *" class="input-mitad" required>
+                    <input type="email" name="email" placeholder="Email" class="input-mitad" required>
+                    <input type="number" name="contacto" placeholder="Phone number" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" placeholder="Your message:" class="input-full" required></textarea>
+                    <input type="submit" name="enviar" value="Send message" class="btn-enviar">
+                    </textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p> &copy; 2024</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/juanita-rodr%C3%ADguez-diaz-9043a3265/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/juanita1103"><i class="fa-brands fa-github"></i></a>
+            <a href="archivo/Juanita Rodriguez-CV.pdf" download="CV"><i class="fa-solid fa-file"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
